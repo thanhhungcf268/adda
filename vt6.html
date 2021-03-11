@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><h4 id="12"></h4>
+
+</body>
+</html>
+<script>
+    let a = parseInt(prompt("Tổng Doanh Thu :  "))
+    if (a > 100000000 ) {
+        document.getElementById("12").innerText = "Hoa hồng tháng này của bạn là = 10%"
+    }else
+    if(a> 60000000 ){
+        document.getElementById("12").innerText = "Hoa hồng tháng này của bạn là = 5%"
+    }
+    else if (a > 40000000){
+        document.getElementById("12").innerText = "Hoa hồng tháng này của bạn là = 3%"
+    }else
+            document.getElementById("12").innerText = "Hoa hồng tháng này của bạn là = 1%"
+</script>

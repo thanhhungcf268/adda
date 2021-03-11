@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><h4 id="12"></h4>
+
+</body>
+</html>
+<script>
+    let a = parseInt(prompt("Điểm kiểm tra"))
+    let b = parseInt(prompt("Điểm thi giữa kì"))
+    let c = parseInt(prompt("Điểm thi cuối kì"))
+    let max = (a + b*2 + c*3)/6
+    if (max > 8.49999 ) {
+        document.getElementById("12").innerText = "Diểm trung bình = " + max + " bạn là học sinh giỏi"
+    }else
+    if(max > 6.499999 ){
+        document.getElementById("12").innerText = "Diểm trung bình = " + max + " bạn học lực khá"
+    }
+    else if (max > 4.99999){
+        document.getElementById("12").innerText = "Diểm trung bình = " + max + " Bạn học lực trung bình"
+    }else
+            document.getElementById("12").innerText = "Diểm trung bình = " + max + " Bạn bị đúp"
+</script>

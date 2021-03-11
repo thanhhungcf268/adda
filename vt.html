@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td value="" id="123">
+    <input value="">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+<script>
+    debugger
+    let a = parseInt(prompt("Nhập dữ liệu"))
+    let b = parseInt(prompt("Nhập dữ liệu"))
+    let x = a % b
+    if (x === 0){
+        document.getElementById("123").innerText = "a chia hết cho b";
+    }else {
+        document.getElementById("123").innerText = "a không chia hêt cho b";
+    }
+</script>
